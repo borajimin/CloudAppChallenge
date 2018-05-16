@@ -1,0 +1,14 @@
+{
+  "name": "CloudAppChallenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:borajimin/CloudAppChallenge.git",
+  "author": "borajimin <borajimin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3"
+  }
+}
