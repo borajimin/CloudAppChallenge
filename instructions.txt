@@ -31,6 +31,17 @@ Create a simple webpage that presents the user with a input field for collecting
 
 Again, feel free to use whatever tools, or frameworks you see fit, and take whatever creative liberties with the prompt you'd like.
 
+example websites:
+https://ony.ru/
+https://www.youtube.com
+https://www.cnn.com
+https://www.nytimes.com
+http://www.sheilascruises.com/
+https://developers.giphy.com
+https://www.light-and-shadows.com/#AboutPreface
+https://slack.com
+
+
 #### Part 3:
 
 Deploy your services from Parts 1 & 2 to GCP's Free Tier (or equivalent) to submit your assignment. When you finish, provide access to a GCP project you have created to `jason@cl.ly` and `stan@cl.ly`.

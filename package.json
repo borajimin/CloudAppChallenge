@@ -5,10 +5,15 @@
   "repository": "git@github.com:borajimin/CloudAppChallenge.git",
   "author": "borajimin <borajimin@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "cheerio": "^1.0.0-rc.2",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "nodemon": "^1.17.4"
   }
 }

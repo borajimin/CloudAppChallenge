@@ -1,0 +1,25 @@
+<form action="/" method="post">
+  <input type="text" name="url" value="" />
+  <input type="submit" value="Retrieve Assets" />
+</form>
+<h1>{{url}}</h1>
+<h2>images</h2>
+<ul>
+  {{#each images}}
+  <li class="images">{{title}}
+    <img src="{{source}}" max-height="300" max-width="300" />
+  </li>
+  {{/each}}
+</ul>
+<h2>videos</h2>
+<ul>
+  {{#each videos}}
+      <li>
+        <video height="300" width="300" autoplay>
+          {{#each sources as |item index|}}
+            <source src="{{item}}" />
+          {{/each}}
+        </video>
+      </li>
+  {{/each}}
+</ul>
